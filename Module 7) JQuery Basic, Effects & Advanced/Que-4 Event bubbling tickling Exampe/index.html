@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-4</title>
+    <link rel="stylesheet" href="../Que-4 Event bubbling tickling Exampe/css/style.css">
+     <!-- online jquery cdn File  -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+     <!-- How to start jQuery -->
+     <script>
+        $(document).ready(function(){
+ 
+ 
+         $("span").parent().css({"color":"red","border":"solid 2px red"})
+        })
+     </script>
+ 
+       
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-3 How to create slider with animaion/silder.html">Prev</a></button>
+        </header>
+       
+    </header>
+    <hr>
+    <hr>
+    <h1>Que:4</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>Event bubbling tickling exampe  ?</u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <br>
+
+    <div class="ancestors">
+        <div style="width:98%">body (great grandparent
+        <div style="width:50%">div (great grandparent)
+        <ul>
+            ul (grandparent)
+            <li>li (parent)
+                <span>span (child)</span>
+            </li>
+        </ul>
+    </div>
+    </div>
+    
+    </div>

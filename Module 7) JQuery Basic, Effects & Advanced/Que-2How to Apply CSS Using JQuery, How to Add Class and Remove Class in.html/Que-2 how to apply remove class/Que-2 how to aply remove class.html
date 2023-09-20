@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>removeClass using jquery</title>
+    <link rel="stylesheet" href="../Que-2 how to apply remove class/css/style.css">
+     <!-- online jquery cdn File  -->
+     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+     <!-- How to start jQuery -->
+     <script>
+       $(document).ready(function(){
+            $("#jcss").click(function(){
+                $("h4,h5,p,div").removeClass("red");
+              
+            });
+        });
+     </script>
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-2 how to apply add class/how to apply add class.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-2 JQuery Animation/Que-2 JQuery Animation.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:2</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>How to Apply remove class Using JQuery  ?</u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <br>
+    <p style="width:50%;  background-color: bisque; padding: 7px; font-size: 20px;">jQuery has several methods for CSS manipulation.</p> 
+       <p style="width:50%;  background-color: bisque; padding: 7px; font-size: 20px;"> We will look at the following methods: </p>
+       <p style="width:50%;  background-color: bisque; padding: 7px; font-size: 20px;"><b> 2) removeClass():</b>Removes one or more classes from the selected elements.</p>
+
+     <h3>Syntax:-</h3>  
+     <br> <br>
+     <section class="nan">
+        <p style="font-size: 25px;font-weight: 600;">$(selector).removeClass(classname))</p>
+     </section> 
+     <br> <br>
+     
+    <h4  class="red" > This is Heading 1</h4>
+    <!-- Paragraph -->
+    <p  class="red">This is a paragraph.</p>
+    <p class="red">This is another paragraph.</p>
+    <!-- Div and button -->
+    <div class="red" >This is some important text!</div><br>
+    <button  id="jcss">Add classes to elements</button>
+
+     
+
+<hr><hr>
+</body>
+</html>
